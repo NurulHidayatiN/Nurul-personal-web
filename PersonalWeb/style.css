@@ -1,0 +1,171 @@
+/*navbar*/
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.navbar a {
+  color: #fff !important ;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 30px;
+  transition: color 0.4s ease-in;
+  font-weight: 500;
+}
+
+/*jumbotron*/
+.jumbotron {
+  background-image: url(awan.jpg);
+  background-size: cover;
+  height: 640px;
+  text-align: center;
+  position: relative;
+}
+
+.jumbotron .display-4 {
+  color: peru;
+  text-align: center;
+  font-weight: 200;
+  font-size: 62px;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 500;
+}
+
+.jumbotron .lead {
+  color: peru;
+  text-align: center;
+  font-weight: 450;
+}
+
+.rounded-circle {
+  margin-top: 100px;
+}
+
+/*about*/
+
+.textabout {
+  color: peru;
+}
+
+/* modifikasi sendiri */
+section {
+  padding: 30px 0;
+}
+
+.projects {
+  background: peru !important;
+  color: #fff;
+}
+
+.projects .max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.projects .pro-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+}
+
+.projects .pro-content .kartu {
+  width: calc(33% - 20px);
+  margin: 10px 0;
+  background: rgb(231, 148, 69);
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.projects .pro-content .kartu:hover {
+  background: rgb(253, 128, 2);
+  transform: scale(1.1);
+}
+
+.projects .pro-content .kotak {
+  transition: all ease 0.3s;
+}
+
+.projects .pro-content .kotak:hover {
+  transform: scale(1.1);
+}
+
+.projects .pro-content .kotak img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border-radius: 20%;
+  border: solid #fff 6px;
+}
+
+.projects .pro-content .kotak .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 5px 0 7px 0;
+  border-bottom: #fff solid 3px;
+}
+
+.projects .pro-content p {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: ;
+}
+
+/* responsive */
+@media (max-width: 947px) {
+  .projects .max-width {
+    max-width: 880px;
+  }
+
+  .projects .pro-content .kartu {
+    width: calc(50% - 10px);
+    padding: 15px 20px;
+    margin-bottom: 20px;
+  }
+
+  .projects .pro-content .kartu:hover {
+    background: rgb(253, 128, 2);
+    transform: scale(1.06);
+  }
+  .projects .pro-content .kotak:hover {
+    transform: scale(1.06);
+  }
+}
+
+@media (max-width: 690px) {
+  .projects .max-width {
+    padding: 0 23px;
+  }
+
+  .projects .pro-content .kartu {
+    width: 100%;
+    max-width: 20px 0;
+  }
+
+  .projects .pro-content .kotak .text {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 4px 0 6px 0;
+    border-bottom: #fff solid 2.5px;
+  }
+}
